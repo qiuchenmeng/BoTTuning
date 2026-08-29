@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "LLM Soft Label Tuning"
+type: software
+authors:
+  - name: "Authors to be added"
+repository-code: "https://github.com/qiuchenmeng/LLM_SL"
+license: MIT

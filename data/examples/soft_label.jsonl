@@ -1,0 +1,1 @@
+{"messages":[{"role":"user","content":"A bag returns apple with probability 0.7 and river with probability 0.3. Return one candidate word."},{"role":"assistant","content":""}],"candidates":["apple","river"],"soft_label":[0.7,0.3],"template_id":0,"task_type":"bot"}

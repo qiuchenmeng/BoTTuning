@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary verification created during development
+.tmp_contract_checks/
+.verification-generated/
+
+# Training outputs and experiment logs
+checkpoints/
+outputs/
+output/
+runs/
+logs/
+wandb/
+tensorboard/
+*.log
+*.out
+*.err
+
+# Model and optimizer weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Generated datasets (checked-in examples remain tracked)
+data/generated/

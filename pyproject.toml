@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-soft-label"
+version = "0.1.0"
+description = "Reproducible Qwen mixed soft-label tuning with candidate-normalized KL"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+  "torch==2.9.1",
+  "transformers==4.57.0",
+  "accelerate==1.10.1",
+  "PyYAML==6.0.3",
+  "numpy==1.26.4",
+  "wordfreq>=3.1,<4",
+]
+
+[project.optional-dependencies]
+wandb = ["wandb==0.22.2"]
+deepspeed = ["deepspeed==0.19.2"]
+
+[project.scripts]
+llm-sl-train = "llm_sl.train:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
