@@ -115,4 +115,20 @@ model and tokenizer are also saved to `<OUTPUT_DIR>`.
 
 ## Citation and license
 
-Citation metadata is available in [`CITATION.cff`](CITATION.cff). The code is released under the [MIT License](LICENSE).
+### Citation
+
+If you use Bag-of-Tokens Tuning in your research, please cite:
+
+```bibtex
+@inproceedings{qiu2026bag,
+  title={Bag-of-Tokens Tuning: Calibrating LLM Logits with Contextual Probabilities},
+  author={Qiu, Chen-Meng and Wang, Ze-Hao and Wang, Deng-Bao and Yue, Linan and Zhang, Min-Ling},
+  booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  pages={36198--36215},
+  year={2026}
+}
+```
+
+### License
+
+The code is released under the [MIT License](LICENSE).
